@@ -1,5 +1,10 @@
 //jshint esversion:6
 
+
+// deployed at
+// https://blooming-lake-70547.herokuapp.com/
+
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
@@ -155,5 +160,5 @@ app.get("/about", function(req, res){
 let port = process.env.PORT || 3000 ;
 
 app.listen(port, function() {
-  console.log("Server started on port ${port}");
+  console.log("Server started successfully");
 });
